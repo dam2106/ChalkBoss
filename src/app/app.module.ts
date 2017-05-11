@@ -5,13 +5,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
-//import { HomePage } from '../pages/home/home';
 import { LoginPage } from '../pages/login-page/login-page';
-
+import { MainMenuPage } from '../pages/main-menu-page/main-menu-page';
 
 let injections: any[] = [
   MyApp,
-  LoginPage
+  LoginPage,
+  MainMenuPage
   ]
 
 @NgModule({

@@ -1,27 +1,24 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { MainMenuPage } from '../main-menu-page/main-menu-page';
+//import { LoginPage } from '../login-page/login-page';
 /**
- * Generated class for the LoginPage page.
+ * Generated class for the MainMenuPage page.
  *
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
 @IonicPage()
 @Component({
-  selector: 'page-login-page',
-  templateUrl: 'login-page.html',
+  selector: 'page-main-menu-page',
+  templateUrl: 'main-menu-page.html',
 })
-export class LoginPage {
+export class MainMenuPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad LoginPage');
+    console.log('ionViewDidLoad MainMenuPage');
   }
 
-  logMeIn() {
-    this.navCtrl.push(MainMenuPage);
-  }
 }

@@ -15,19 +15,25 @@
 
 <ion-content padding>
   
-<input type="text">
-Username
-<input>
+  <ion-item>
+    
+    <ion-input placeholder="Username"></ion-input>
+  </ion-item>
+  
+    <ion-item>
+ 
+    <ion-input placeholder="Password"></ion-input>
+  </ion-item>
 
 
-<button ion-button class="button-block">
+  <button ion-button class="button-block" (click)="logMeIn()">
   Log In
-</button>
+  </button>
 
 
-<button ion-button class="button-block">
+  <button ion-button class="button-block" (click)="logMeIn()">
   Sign up
-</button>
+  </button>
 
 
 </ion-content>
