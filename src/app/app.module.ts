@@ -7,11 +7,13 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { LoginPage } from '../pages/login-page/login-page';
 import { MainMenuPage } from '../pages/main-menu-page/main-menu-page';
+import { ParkModePage } from '../pages/park-mode-page/park-mode-page';
 
 let injections: any[] = [
   MyApp,
   LoginPage,
-  MainMenuPage
+  MainMenuPage,
+  ParkModePage
   ]
 
 @NgModule({

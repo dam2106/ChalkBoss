@@ -1,27 +1,24 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { ParkModePage } from '../park-mode-page/park-mode-page';
 
 /**
- * Generated class for the MainMenuPage page.
+ * Generated class for the ParkModePage page.
  *
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
 @IonicPage()
 @Component({
-  selector: 'page-main-menu-page',
-  templateUrl: 'main-menu-page.html',
+  selector: 'page-park-mode-page',
+  templateUrl: 'park-mode-page.html',
 })
-export class MainMenuPage {
+export class ParkModePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad MainMenuPage');
+    console.log('ionViewDidLoad ParkModePage');
   }
-  parkModePage() {
-    this.navCtrl.push(ParkModePage);
-  }
+
 }
